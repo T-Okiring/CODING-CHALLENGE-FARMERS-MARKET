@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+}
+.major-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  .imge-div {
+    width: 100%;
+    height: 50%;
+    gap: 1rem;
+    object-fit: cover;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .rajesh {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .price1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 0.5rem;
+  }
+  .instock {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fa-star {
+    color: rgb(245, 182, 61);
+    font-size: medium;
+  }
+  .fa-circle-check {
+    color: rgb(41, 163, 69);
+  }
+  .card-button {
+    width: 100%;
+    background-color: rgb(41, 163, 69);
+    border-radius: 15px;
+    border: 1px solid rgb(41, 163, 69);
+    margin-left: 0;
+  }
+}
